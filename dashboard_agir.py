@@ -110,9 +110,11 @@ def convert_to_text(trimestre):
             x = 'Terceiro trimestre de 2023'
         case 4:
             x = '3'
-     
+        case _:
+            x = 'Invalid trimestre'  # Handle the case where the input is not 0, 1, 2, 3, or 4
 
     return x
+
 
 
 # =========  Layout  =========== #
